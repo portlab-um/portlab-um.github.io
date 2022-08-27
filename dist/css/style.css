@@ -374,7 +374,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Heebo", sans-serif;
+  font-family: futura-pt-condensed, sans-serif;
 }
 
 a {
@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
   color: #11103E;
-  font-family: Fira Sans, serif;
+  font-family: rift, sans-serif;
   font-weight: 600;
 }
 
@@ -582,7 +582,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: #EEF1FA;
+  background: #F7CA00;
 }
 
 pre {
@@ -1159,8 +1159,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: #EEF1FA;
-  border-color: #EEF1FA;
+  background-color: #F7CA00;
+  border-color: #F7CA00;
 }
 
 .input {
@@ -1213,8 +1213,8 @@ label {
 --------------------------------------------------------------*/
 .button {
   display: inline-flex;
-  font-size: 14px;
-  letter-spacing: 0px;
+  font-size: 16px;
+  letter-spacing: -0.1px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 16px;
@@ -1263,8 +1263,8 @@ label {
 --------------------------------------------------------------*/
 .site-header {
   position: relative;
-  padding: 0.8rem 0;
-  background: #F7CA00;
+  padding: 6px 0;
+  background-color: #F7CA00;
 }
 
 .header-shape {
@@ -1284,7 +1284,7 @@ label {
 .site-header-inner {
   position: relative; /* To display all elements above the background color */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -1323,6 +1323,9 @@ label {
     width: 220px;
     height: 220px;
   }
+  .site-header-inner {
+    justify-content: space-between;
+  }
 }
 @media (min-width: 1025px) {
   .header-shape-1 {
@@ -1339,7 +1342,11 @@ label {
 --------------------------------------------------------------*/
 .hero {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
+}
+
+.hero-title {
+  color: #F7CA00;
 }
 
 .hero-paragraph {
@@ -1379,7 +1386,7 @@ label {
 @media (min-width: 641px) {
   .hero {
     text-align: left;
-    padding-top: 9rem;
+    padding-top: 160px;
   }
   .hero-inner {
     /* Split hero in two half */
@@ -1431,8 +1438,8 @@ label {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #EEF1FA;
-  background: linear-gradient(to bottom, #EEF1FA, rgba(238, 241, 250, 0));
+  background: #F7CA00;
+  background: linear-gradient(to bottom, #F7CA00, rgba(247, 202, 0, 0));
 }
 
 .features-wrap {
@@ -1707,7 +1714,7 @@ label {
 # Site content
 --------------------------------------------------------------*/
 .is-boxed {
-  background: #EEF1FA;
+  background: #F7CA00;
 }
 
 .body-wrap {
@@ -1746,10 +1753,10 @@ main {
 --------------------------------------------------------------*/
 .site-footer {
   position: relative;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #FFF;
   background-color: #F7CA00;
 }
 .site-footer::before {
@@ -1763,11 +1770,11 @@ main {
   background-repeat: no-repeat;
 }
 .site-footer a {
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none;
 }
 .site-footer a:hover, .site-footer a:active {
-  color: #ABABC9;
+  color: #FFF;
   text-decoration: underline;
 }
 
@@ -1775,12 +1782,12 @@ main {
   position: relative; /* To display all elements above the background color */
   display: flex;
   flex-wrap: wrap;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 .site-footer-inner.has-top-divider::before {
-  background: #565678;
-  background: linear-gradient(to right, rgba(86, 86, 120, 0.1) 0, rgba(86, 86, 120, 0.6) 50%, rgba(86, 86, 120, 0.1) 100%);
+  background: #FFF;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.1) 100%);
 }
 
 .footer-brand,

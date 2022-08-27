@@ -47,7 +47,7 @@
 			color: color(typography, 1i);
 		}
 	} @else if ($type == 'footer') {
-		color: color(typography, 3);
+		color: color(typography, 1i);
 		text-decoration: none;
 
 		&:hover,

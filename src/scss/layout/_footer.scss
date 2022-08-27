@@ -1,13 +1,13 @@
 .site-footer {
 	position: relative;
-    @include font-size(8, mobile, true, true, true);
-    @if ( get-font-size(8, desktop) != get-font-size(8, mobile) ) {
+    @include font-size(7, mobile, true, true, true);
+    @if ( get-font-size(7, desktop) != get-font-size(7, mobile) ) {
         @include media( '>medium' ) {
-            @include font-size(8, desktop, true, true, true);
+            @include font-size(7, desktop, true, true, true);
         }
     }
-    color: color(typography, 3);
-	background-color: color(typography, 1);
+    color: color(typography, 1i);
+	background-color: color(bg, 2);
 
 	&::before {
 		content: '';
@@ -29,14 +29,14 @@
     position: relative; /* To display all elements above the background color */
     display: flex;
     flex-wrap: wrap;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 
 	&.has-top-divider {
 
 		&::before {
-			background: color(typography, 2);
-			background: linear-gradient(to right, rgba(color(typography, 2), .1) 0, rgba(color(typography, 2), .6) 50%, rgba(color(typography, 2), .1) 100%);
+			background: color(typography, 1i);
+			background: linear-gradient(to right, rgba(color(typography, 1i), .1) 0, rgba(color(typography, 1i), .6) 50%, rgba(color(typography, 1i), .1) 100%);
 		}
 	}
 }

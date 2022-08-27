@@ -1,9 +1,9 @@
 .button {
     display: inline-flex;
-    @include font-size(8, mobile, true, false, true);
-    @if ( get-font-size(8, desktop) != get-font-size(8, mobile) ) {
+    @include font-size(7, mobile, true, false, true);
+    @if ( get-font-size(7, desktop) != get-font-size(7, mobile) ) {
         @include media( '>medium' ) {
-            @include font-size(8, desktop, true, false, true);
+            @include font-size(7, desktop, true, false, true);
         }
     }
     @include font-weight(bold);
