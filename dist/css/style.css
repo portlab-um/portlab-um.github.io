@@ -1493,6 +1493,20 @@ label {
   box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
   mix-blend-mode: multiply;
 }
+.qa-inner span {
+  color: #F7CA00;
+  font-weight: 500;
+}
+.qa-inner a {
+  position: relative;
+  z-index: 1;
+  pointer-events: all;
+  font-weight: 500;
+}
+.qa-inner ul {
+  font-size: 18px;
+  margin: 0.5rem;
+}
 
 .qa-icon {
   position: relative;

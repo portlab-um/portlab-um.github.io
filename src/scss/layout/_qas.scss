@@ -56,6 +56,23 @@
         @include shadow;
         mix-blend-mode: multiply;
     }
+
+	span {
+		color: color(primary, 1);
+		font-weight: map-get($font__weight, medium);
+	}
+
+	a {
+		position: relative;
+		z-index: 1;
+		pointer-events: all;
+		font-weight: map-get($font__weight, medium);
+	}
+
+	ul {
+		font-size: 18px;
+		margin: 0.5rem;
+	}
 }
 
 .qa-icon {
