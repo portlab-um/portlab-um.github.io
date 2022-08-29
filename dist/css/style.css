@@ -1366,6 +1366,10 @@ label {
     letter-spacing: -0.1px;
   }
 }
+.hero-paragraph span {
+  color: #F7CA00;
+  font-weight: 500;
+}
 
 .hero-form {
   max-width: 440px;
@@ -1390,7 +1394,7 @@ label {
 @media (min-width: 641px) {
   .hero {
     text-align: left;
-    padding-top: 160px;
+    padding-top: 200px;
   }
   .hero-inner {
     /* Split hero in two half */
@@ -1462,9 +1466,9 @@ label {
 
 .qa {
   position: relative;
-  padding: 16px;
-  width: 388px;
-  max-width: 388px;
+  padding: 10px;
+  width: 375px;
+  max-width: 375px;
   flex-grow: 1;
 }
 
@@ -1472,7 +1476,7 @@ label {
   position: relative;
   height: 100%;
   background: #FFFFFF;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 1.5rem;
 }
 .qa-inner::before {
   content: "";
@@ -1508,7 +1512,7 @@ label {
   position: relative; /* To display the svg icon above the background color */
 }
 
-@media (min-width: 641px) {
+@media (min-width: 481px) {
   .qas .section-paragraph {
     padding-left: 72px;
     padding-right: 72px;
@@ -1525,13 +1529,13 @@ label {
     margin-bottom: -24px;
   }
   .qa {
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 80%;
   }
 }
 @media (min-width: 1025px) {
   .qas .section-inner {
-    padding-bottom: 168px; /* 88+80px second column offset */
+    padding-bottom: 88px; /* 88+80px second column offset */
   }
 }
 /*--------------------------------------------------------------

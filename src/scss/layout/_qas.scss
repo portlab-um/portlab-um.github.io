@@ -34,9 +34,9 @@
 
 .qa {
 	position: relative;
-    padding: 16px;
-    width: 388px;
-    max-width: 388px;
+    padding: 10px;
+    width: 375px;
+    max-width: 375px;
     flex-grow: 1;
 }
 
@@ -44,7 +44,7 @@
     position: relative;
     height: 100%;
     background: color(bg, 1);
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 1.5rem;
 
     &::before {
         content: '';
@@ -83,7 +83,7 @@
 	}
 }
 
-@include media( '>medium' ) {
+@include media( '>small' ) {
 
     .qas {
 
@@ -108,8 +108,8 @@
 	}
 
 	.qa {
-		width: 100%;
-		max-width: 100%;
+		width: 80%;
+		max-width: 80%;
 	}
 }
 
@@ -118,7 +118,7 @@
 	.qas {
 
 		.section-inner {
-			padding-bottom: 168px; /* 88+80px second column offset */
+			padding-bottom: 88px; /* 88+80px second column offset */
 		}
 	}
 }
