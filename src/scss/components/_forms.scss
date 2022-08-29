@@ -70,6 +70,8 @@
 }
 
 .field-grouped {
+    display: flex;
+    justify-content: center;
 
     > .control {
 
@@ -77,12 +79,15 @@
             margin-bottom: 8px;
         }
     }
+
+    > .control-expanded {
+        flex-grow: 2;
+    }
 }
 
 @include media( '>medium' ) {
 
     .field-grouped {
-        display: flex;
 
         > .control {
             flex-shrink: 0;
