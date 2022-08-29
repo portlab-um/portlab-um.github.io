@@ -9,7 +9,7 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal()
 
-    sr.reveal('.feature, .testimonial', {
+    sr.reveal('.qa, .testimonial', {
       duration: 600,
       distance: '50px',
       easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
