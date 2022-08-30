@@ -505,6 +505,13 @@ h6,
   line-height: 27px;
   letter-spacing: -0.1px;
 }
+@media (min-width: 641px) {
+  .text-sm {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.1px;
+  }
+}
 
 .text-xs {
   font-size: 16px;
@@ -1504,7 +1511,6 @@ label {
   font-weight: 500;
 }
 .qa-inner ul {
-  font-size: 18px;
   margin: 0.5rem;
 }
 
@@ -1548,7 +1554,7 @@ label {
 }
 
 .qa-reverse {
-  transform: scale(-1, -1);
+  transform: scaleY(-1);
 }
 
 .qa-toggle {
