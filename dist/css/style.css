@@ -1513,6 +1513,9 @@ label {
 .qa-inner ul {
   margin: 0.5rem;
 }
+.qa-inner i {
+  color: #11103E;
+}
 
 .qa-header {
   display: flex;
