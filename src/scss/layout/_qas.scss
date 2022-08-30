@@ -75,6 +75,23 @@
 	}
 }
 
+.qa-header {
+	display: flex;
+	justify-content: space-between;
+
+	button {
+		position: relative;
+		z-index: 1;
+		height: 2rem;
+		width: 2rem;
+		margin-top: 1rem;
+		border: none;
+		background: transparent;
+		cursor: pointer;
+		text-align: right;
+	}
+}
+
 .qa-icon {
 	position: relative;
     margin: 0 auto;
@@ -98,6 +115,16 @@
 	svg {
 		position: relative; /* To display the svg icon above the background color */
 	}
+}
+
+.qa-reverse {
+	transform: rotate(180deg);
+}
+
+.qa-toggle {
+	visibility: hidden;
+    height: 0;
+    margin-bottom: 16px;
 }
 
 @include media( '>small' ) {
