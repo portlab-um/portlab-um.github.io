@@ -374,7 +374,7 @@ button,
 input,
 select,
 textarea {
-  font-family: futura-pt-condensed, sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 a {
@@ -505,13 +505,6 @@ h6,
   line-height: 27px;
   letter-spacing: -0.1px;
 }
-@media (min-width: 641px) {
-  .text-sm {
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: -0.1px;
-  }
-}
 
 .text-xs {
   font-size: 16px;
@@ -635,6 +628,11 @@ textarea,
 label {
   font-size: 18px;
   line-height: 27px;
+}
+
+span {
+  color: #F7CA00;
+  font-weight: 600;
 }
 
 /*--------------------------------------------------------------
@@ -1366,21 +1364,17 @@ label {
 }
 
 .hero-paragraph {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 27px;
   letter-spacing: -0.1px;
   margin-bottom: 40px;
 }
 @media (min-width: 641px) {
   .hero-paragraph {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     letter-spacing: -0.1px;
   }
-}
-.hero-paragraph span {
-  color: #F7CA00;
-  font-weight: 500;
 }
 
 .hero-form {
@@ -1500,15 +1494,11 @@ label {
   box-shadow: 0 24px 48px rgba(17, 16, 62, 0.12);
   mix-blend-mode: multiply;
 }
-.qa-inner span {
-  color: #F7CA00;
-  font-weight: 500;
-}
 .qa-inner a {
   position: relative;
   z-index: 1;
   pointer-events: all;
-  font-weight: 500;
+  font-weight: 600;
 }
 .qa-inner ul {
   margin: 0.5rem;
