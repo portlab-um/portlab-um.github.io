@@ -76,6 +76,14 @@ if (document.body.classList.contains('has-animations')) {
         return i * 100
       }
     },
+    translateY: {
+      value: [100, 60],
+      duration: 400,
+      easing: 'easeOutCubic',
+      delay: function (el, i) {
+        return i * 100
+      }
+    },
     opacity: {
       value: [0, 1],
       duration: 200,
